@@ -15,20 +15,25 @@ Some of the features of the Stock Sentiment Analyzer include:
 
 ## Sentiment Analysis
 
-- BERT was fine tuned on tweets about some stocks for which we had some data regarding their opening price, closing price, etc.
-- The embeddings which were provided by the BERT model was then passed through a FC Net to get a sentiment score.
-- This sentiment score, for the past 10 days, was then passed through a LSTM to get the final sentiment score.
+- BERT was fine-tuned on tweets about some stocks for which we had data regarding their opening price, closing price, etc.
+- The embeddings provided by the BERT model were then passed through a Fully Connected Network to get a sentiment score.
+- This sentiment score, for the past 10 days, was then passed through an LSTM to get the final sentiment score.
 
 ## Tech Stack
 
 This web application is built using the following technologies:
-- Node.js: A JavaScript runtime that allows us to run JavaScript code outside of a web browser.
-- Express.js: A web application framework for Node.js that provides features for building web applications such as routing and middleware.
-- MongoDB: A document-oriented NoSQL database that provides high scalability, availability, and performance.
-- HTML/CSS/JavaScript: The standard web technologies used for building web pages and user interfaces.
+- **Node.js:** A JavaScript runtime that allows us to run JavaScript code outside of a web browser.
+- **Express.js:** A web application framework for Node.js that provides features for building web applications such as routing and middleware.
+- **MongoDB:** A document-oriented NoSQL database that provides high scalability, availability, and performance.
+- **HTML/CSS/JavaScript:** The standard web technologies used for building web pages and user interfaces.
 
 ## Prerequisites
 
 To run this application on your local machine, you need to have the following software installed:
-- Node.js (v12 or above)
-- MongoDB (v4 or above)
+- **Node.js** (v12 or above)
+- **MongoDB** (v4 or above)
+
+## Team
+
+- **Saksham Jha** - Team Lead
+- **Sarthak Saumya** - Team Member
